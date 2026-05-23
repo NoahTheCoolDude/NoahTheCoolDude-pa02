@@ -126,7 +126,8 @@ int main(int argc, char** argv){
             for (auto& m : matches) {
                 cout << m.name << ", " << m.rating << endl;
             }
-
+            cout << endl;
+            
             //saving the best for part 2b
             bestPrefixes.push_back(prefix);
             bests.push_back(matches[0]);
